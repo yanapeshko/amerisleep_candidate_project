@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Eina01W01';
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regular.eot');
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regular.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regular.woff2') format('woff2'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regular.woff') format('woff'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Eina01W01';
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_light.eot');
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_light.woff2') format('woff2'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_light.woff') format('woff'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Eina01W01';
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_bold.eot');
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_bold.woff2') format('woff2'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_bold.woff') format('woff'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Eina01W01';
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_semibold.eot');
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_semibold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_semibold.woff2') format('woff2'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_semibold.woff') format('woff'),
+    url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_semibold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Eina01W01';
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regularitalic.eot');
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regularitalic.eot?#iefix') format('embedded-opentype'),
+       url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regularitalic.woff2') format('woff2'),
+       url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regularitalic.woff') format('woff'),
+       url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/eina01_regularitalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Eina01W01';
+  src: url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/Eina01-BoldItalic.woff2') format('woff2'),
+      url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/Eina01-BoldItalic.woff') format('woff'),
+      url('https://cdn11.bigcommerce.com/s-36im9ihtig/content/assets/fonts/eina-01/Eina01-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
