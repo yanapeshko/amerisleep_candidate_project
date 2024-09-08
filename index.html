@@ -8,72 +8,101 @@
     <link rel="stylesheet" href="assets/fonts.css" />
   </head>
   <body>
-    <header>
-      <h1>Organic Feature Collections</h1>
-      <p>Simple, Sleek, Sustainable</p>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Organic Feature Collections</h1>
+        <p class="subheadig">Simple, Sleek, Sustainable</p>
+      </header>
 
-    <main>
-      <section class="product">
-        <div>
-          <ul>
-            <li>
-              <img
-                src="assets/img/organica-mattress.jpg"
-                alt="Luxury Mattress"
-                class="product-image"
-              />
-              <!-- Product Image -->
-              <div>
-                <h2>Luxury Organic Mattress</h2>
-                <div class="rating">
+      <main class="product">
+        <section>
+          <div>
+            <ul class="product-card">
+              <li>
+                <div class="image-container">
                   <img
-                    src="assets/icon/star.svg"
-                    alt="Half Star"
-                    class="icon-star"
+                    src="assets/img/organica-mattress.jpg"
+                    alt="Luxury Mattress"
+                    class="product-image"
                   />
-                  <p>4.7</p>
+                  <button class="discount">
+                    <p class="discount-text">Only today!</p>
+                    <p class="discount-text">Save $450</p>
+                  </button>
                 </div>
-              </div>
-              <p class="price">
-                <span class="current-price">$1099</span>
-                <span class="old-price">$1549</span>
-              </p>
-              <p class="product-details">
-                Medium Firm, 13-inch, Refresh Cooling Technology
-              </p>
-              <p class="availability">Available in 7 sizes</p>
-              <button class="add-to-cart">
-                <img
-                  src="assets/icon/shopping-cart.svg"
-                  alt="Cart"
-                  class="icon-cart"
-                />
-                <!-- Cart Icon -->
-                Add to Cart
-              </button>
-              <p class="discount">Only today! Save $450</p>
-            </li>
-          </ul>
-        </div>
-      </section>
+                <!-- Product Image -->
+                <div>
+                  <div class="product-rating">
+                    <div class="rating">
+                      <img
+                        src="assets/icon/star.svg"
+                        alt="Icon Star"
+                        class="icon-star"
+                      />
+                      <p class="rating-text">4.7</p>
+                    </div>
+                    <h2>Luxury Organic Mattress</h2>
+                  </div>
 
-      <section id="load-more">
-        <button class="load-more-button">
-          <img
-            src="assets/icons/more-icon.png"
-            alt="More Products"
-            class="icon-more"
-          />
-          <!-- Example More Icon -->
-          Load More Products
-        </button>
-      </section>
-    </main>
+                  <p class="product-text">Starting at</p>
+                  <div class="price">
+                    <span class="current-price">$1099</span>
+                    <span class="old-price">$1549</span>
+                  </div>
 
-    <footer>
-      <p>&copy; 2024 Organic Collections</p>
-    </footer>
+                  <div class="product-highlights-container">
+                    <ul class="highlights-list">
+                      <li class="highlights-item">
+                        <img src="assets/icon/waves.svg" alt="Waves Icon" />
+                        <p class="product-highlights">Medium Firm</p>
+                      </li>
+                      <li class="highlights-item">
+                        <img src="assets/icon/ruler.svg" alt="Ruler Icon" />
+                        <p class="product-highlights">13-inch</p>
+                      </li>
+                      <li class="highlights-item">
+                        <img
+                          src="assets/icon/snowflake.svg"
+                          alt="Cooling Icon"
+                        />
+                        <p class="product-highlights">Refresh Cooling Tech.</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="availability">Available in 7 sizes</p>
+                  <button class="add-to-cart">
+                    <img
+                      src="assets/icon/shopping-cart.svg"
+                      alt="Cart"
+                      class="icon-cart"
+                    />
+
+                    <!-- Cart Icon -->
+                    Add to Cart
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="load-more">
+          <button class="load-more-button">
+            <img
+              src="assets/icons/more-icon.png"
+              alt="More Products"
+              class="icon-more"
+            />
+            <!-- Example More Icon -->
+            Load More Products
+          </button>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2024 Organic Collections</p>
+      </footer>
+    </div>
 
     <script src="js/main.js"></script>
   </body>
