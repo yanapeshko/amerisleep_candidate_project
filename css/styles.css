@@ -44,7 +44,6 @@ header {
 .product {
   padding-bottom: 20px;
   text-align: center;
-  background-color: #f6f6f680;
 }
 .product-list {
   display: flex;
@@ -250,8 +249,7 @@ h2 {
     font-size: 16px;
   }
   .container {
-    margin: 10px;
-    padding: 15px;
+    padding: 100px;
     width: 1440px;
     background-color: #f6f6f680;
   }
