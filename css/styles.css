@@ -4,7 +4,6 @@ body {
   padding: 0;
   font-family: "Eina01W01", sans-serif;
   background-color: #f6f6f680;
-
   color: #000000;
 }
 ul {
@@ -21,11 +20,6 @@ h1 {
   font-size: 24px;
   color: #00338d;
   font-weight: bold;
-}
-h2 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
 }
 
 p {
@@ -114,6 +108,7 @@ header {
 
 h2 {
   font-size: 16px;
+  font-weight: 600;
   color: #00338d;
   margin-left: 12px;
   margin-top: 4px;
@@ -271,24 +266,33 @@ h2 {
   }
   .product-item {
     position: relative;
-    /* changes ends */
     display: block !important;
-    width: 100%;
     max-width: 379px;
     object-fit: cover;
     background-color: #f6f6f680;
     box-shadow: none;
   }
 
+  .product-item:hover .add-to-cart,
+  .product-item:focus .add-to-cart {
+    opacity: 1;
+    pointer-events: auto;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 20px 20px -1px #ebf7ff80;
+  }
+  .product-item:hover h2,
+  .product-item:focus h2 {
+    color: #0068ff;
+  }
+  .product-item:focus .product-overlay,
+  .product-item:hover .product-overlay {
+    background-color: #ebf7ff80;
+  }
   .product-image {
     width: 379px;
     height: 379px;
   }
-  /* changes starts */
-  .product-image:hover .add-to-cart {
-    opacity: 1;
-    pointer-events: auto;
-  }
+
   .rating {
     padding: 6px;
     display: flex;
@@ -302,15 +306,21 @@ h2 {
   }
 
   .add-to-cart {
-    padding: 15px 30px;
-    /* changes starts */
     position: absolute;
-    bottom: 10px;
+    bottom: 170px;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
     cursor: pointer;
+  }
+  #load-more {
+    background-color: #f6f6f680;
+    box-shadow: none;
+  }
+
+  .load-more-button {
+    background-color: #f6f6f680;
   }
 }
