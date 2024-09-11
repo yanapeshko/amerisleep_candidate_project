@@ -248,31 +248,31 @@ h2 {
     padding-top: 50px;
     padding-bottom: 40px;
   }
+
   h1 {
     font-size: 28px;
   }
 
   .container {
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #f6f6f680;
   }
+
   .wrapper {
     padding: 100px;
     width: 1440px;
     background-color: #f6f6f680;
   }
+
   .subheadig {
     font-size: 16px;
-  }
-  .product {
-    display: flex;
-    flex-direction: column;
   }
   .product-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+
   .product-item {
     position: relative;
     display: block !important;
@@ -289,14 +289,17 @@ h2 {
     transition: box-shadow 0.3s ease;
     box-shadow: 0 20px 20px -1px #ebf7ff80;
   }
+
   .product-item:hover h2,
   .product-item:focus h2 {
     color: #0068ff;
   }
+
   .product-item:focus .product-overlay,
   .product-item:hover .product-overlay {
     background-color: #ebf7ff80;
   }
+
   .product-image {
     width: 379px;
     height: 379px;
@@ -324,6 +327,7 @@ h2 {
     transition: opacity 0.3s ease;
     cursor: pointer;
   }
+
   #load-more {
     background-color: #f6f6f680;
     box-shadow: none;
