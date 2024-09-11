@@ -33,6 +33,8 @@ document
                       src="assets/icon/star.svg"
                       alt="Icon Star"
                       class="icon-star"
+                        width="19"
+                        height="18"
                     />
                     <p class="rating-text">4.7</p>
                   </div>
@@ -94,6 +96,8 @@ document
                       src="assets/icon/star.svg"
                       alt="Icon Star"
                       class="icon-star"
+                        width="19"
+                        height="18"
                     />
                     <p class="rating-text">4.7</p>
                   </div>
@@ -155,6 +159,8 @@ document
                       src="assets/icon/star.svg"
                       alt="Icon Star"
                       class="icon-star"
+                        width="19"
+                        height="18"
                     />
                     <p class="rating-text">4.7</p>
                   </div>
